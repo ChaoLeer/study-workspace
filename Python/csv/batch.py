@@ -22,8 +22,9 @@ def batchFormat(num):
                 # 偶数行红色，宋体
                 font = Font('宋体', color=colors.RED)
             else:
+                print('奇数行')
                 # 奇数行浅蓝色，宋体
-                font = Font('宋体', color='00CCFF')
+                # font = Font('宋体', color='00CCFF')
             for cell in row:
                 cell.font = font
                 # 偶数行添加背景填充色，从红到蓝渐变
